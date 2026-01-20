@@ -2,7 +2,8 @@
 
 <html lang="en">
    <head>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" >
+   <link rel="stylesheet" href="styles.css">
       <title>
          Coffee Website
       </title>
@@ -16,11 +17,15 @@
                <h2 class="logo-text">☕️ Coffee</h2>
             </a>
             <ul class="nav-menu">
+               <button id="menu-close-button" class="fas fa-times"></button>
                <li class="nav-item">
                   <a href="" class="nav-link">Home</a>
                </li>
                <li class="nav-item">
                   <a href="" class="nav-link">About</a>
+               </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Menu</a>
                </li>
                <li class="nav-item">
                   <a href="" class="nav-link">Reviews</a>
@@ -29,9 +34,11 @@
                   <a href="" class="nav-link">Gallery</a>
                </li>
                <li class="nav-item">
-                  <a href="" class="nav-link">Contect Us</a>
+                  <a href="" class="nav-link">Contact Us</a>
                </li>
             </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
          </nav>
       </header>
 
@@ -56,6 +63,8 @@
             </div>
          </section>
       </main>
+
+      <script src="script.js" ></script>
       
    </body>
 </html>
